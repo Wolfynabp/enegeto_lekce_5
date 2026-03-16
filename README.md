@@ -11,3 +11,5 @@ jak propsat změny na guthub server:
 1. příkaz git add . 
 2. příkaz git commit -m "" = okomentovat co za změny jsme provedli 
 3. příkaz git push = propsání na github serverg
+
+git pull - propsání změn se serveru na můj počítatč
