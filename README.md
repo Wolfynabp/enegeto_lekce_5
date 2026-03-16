@@ -4,9 +4,12 @@ git clone - clonování depozitáře
 git status - podívání se na stav  
 git commit -m "" - přidání komentáře k provedeným změnám
 ls - zobrazení listu ve kterém se aktuálně nacházím
-git log -
+git log - zobrazení historii commitu
 git push - změny provedené u mě na pc se propíší i na github server
 git add . -- zařazení všech změněných souborů do úložiště
+git stash - odloží sledované soubory na dočasný úložný prostor
+git blame - používáme ve spojení s určitým souborem. Příkaz zjišťuje, kdo upravil kterou verzi určitého řádku.
+
 repozitář - místo kde se ukládá náš kód
 jak propsat změny na guthub server:
 1. uložit přes save (File - Save)
@@ -14,8 +17,8 @@ jak propsat změny na guthub server:
 3. příkaz git commit -m "" = okomentovat co za změny jsme provedli 
 4. příkaz git push = propsání na github serverg
 
-git pull - propsání změn se serveru na můj počítatč
-git diff - změna souboru
+git pull - stažení poslední verze ze vzdáleného repozitáře na GitHubu
+git diff - porovnává vybrané soubory mezi jednotlivými stromy Gitu
 1. Nezměněn díky větám: 
 # my-github-repo
 I will test my Git knowledge on this repo.
